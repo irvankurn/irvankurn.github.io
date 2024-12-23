@@ -1,47 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Example Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background: #0078D7;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Welcome to My Example Page> Edit1</h1>
-    </header>
-    <main>
-        <p>This is a basic HTML template that you can use to start your project.</p>
-        <p>Edit the content and styles to suit your needs.</p>
-    </main>
-    <footer>
-        &copy; 2024 Example Page. All rights reserved.
-    </footer>
-</body>
+<html>
+    <head>
+        <title>Webcam Test</title>
+        <link rel="stylesheet" type="text/css" href="./main.css">
+    </head>
+    <body>
+
+        <script src="./webcam_test.js"></script>
+
+        <h1>Webcam Test Page</h1>
+        <select id="camera-select" name="camera-select"></select>
+
+        <br/>
+
+        <video id="webcam-output"></video>
+
+        <br/>
+
+        <div class="note">This page does not store or transmit any data. It merely shows you the output of your webcam, so you can confirm that it's working in your browser.</div>
+
+        <br/>
+
+        <div class="note">
+            By <a href="http://johnholbrook.us">John Holbrook</a>.
+            <br>
+            <a href="https://github.com/johnholbrook/webcam-test">View this project on GitHub</a>
+        </div>
+
+    </body>
 </html>
